@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>smartphones</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" text="text/css" href="css/a2.css">
+    <style>
+    *{
+            margin: 0px;
+            padding: 0px;
+            font-family: sans-serif;
+    
+        }
+        #sidebar{
+            position: fixed;
+            width: 200px;
+            height: 100%;
+            left: -200px;
+            background: #151719;
+            transition: all 500ms linear;
+            top: 0px;
+        }
+        #sidebar.active{
+            left: 0px;
+        }
+        
+        
+        #sidebar ul li{
+            color: rgba(230,230,230,0.9);
+            list-style: none;
+            padding: 15px 10px;
+            border-bottom: 1px solid rgba(100,100,100,0.3);
+        }
+        #sidebar .toggle-btn{
+            position: absolute;
+            left: 230px;
+            top: 20px;
+        }
+        #sidebar .toggle-btn span{
+            display: block;
+            width: 30px;
+            height: 5px;
+            background: grey;
+            margin: 5px 0px;
+        }
+        
+    #buttonone{
+    background-color: white;
+    border: none;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 40px;
+    width: 150px;
+     font-family: 'Montserrat',sans-serif;
+    text-transform: uppercase;
+     font-family: 'Montserrat',sans-serif;
+    margin-top: 25px;
+    border: 3px solid white;
+}
+        
+        
+        
+    </style>
+    </head>
+    <body>
+    <div class="bgimage">
+        <div class="menu">
+        <div class="leftmenu">
+            <center><h2 style="font-family:broadway; font-size:50px;">mObilophiLe.com</h2></center>
+            </div>
+            <div class="rightmenu">
+            <ul>
+                <li><a href="index.html" style="text-decoration: none; color:white">Home</a></li>
+                <li>Android
+                <ul>
+                    <li><a href="sam2.html">samsung</a>
+                        <ul>
+                        <li><a href="#">Galaxy M40</a></li>
+                <li><a href="#">Galaxy A2 core</a></li>
+                <li><a href="#">Galaxy A30</a></li>
+                <li><a href="#">Galaxy A70</a></li>
+                <li><a href="#">Galaxy M10</a></li>
+                <li><a href="#">Galaxy S10</a></li>
+                <li><a href="#">Galaxy S10+</a></li>
+                        </ul>
+                    </li>
+                    
+                    
+                 <li><a href="pram2.html">One Plus</a>
+                    <ul>
+                        <li><a href="#">One Plus 5</li>
+                <li><a href="#">One Plus 5T</a></li>
+                <li><a href="#">One Plus 6</a></li>
+                <li><a href="#">One Plus 6T</a></li>
+                <li><a href="#">One Plus 7</a></li>
+                <li><a href="#">One Plus 7 Pro</a></li>
+                     
+                     
+                     </ul>
+                    
+                    </li>
+                <li><a href="saveus.html">Nokia</a>
+                    <ul>
+                        <li><a href="#">Nokia 6.1 Plus</a></li>
+                    <li><a href="#">Nokia 8.1</a></li>
+                    <li><a href="#">Nokia 7.1</a></li>
+                    <li><a href="#">Nokia 8.1 Sirocco</a></li>
+                    <li><a href="#">Nokia 2.2</a></li>
+                    <li><a href="#">Nokia 4.2</a></li>
+                    <li><a href="#">Nokia 5.1</a></li>
+                    <li><a href="#">Nokia 2.1</a></li>
+                        <li><a href="#">Nokia 3.1</a></li>
+                    
+                    </ul>
+                    </li>
+                    <li><a href="redmi.html">Xiaomi</a>
+                    <ul>
+                <li><a href="#">REdmi Y3</a></li>
+                <li><a href="#">Xiaomi 9SE</a></li>
+                <li><a href="#">REdmi Note7 pro</a></li>
+                <li><a href="#">MI mix 3</a></li>
+                <li><a href="#">MI 8 Lite</a></li>
+                <li><a href="#">Redmi 6pro</a></li>
+            </ul>
+                    
+                    
+                    </li>
+                </ul>
+                    </li>
+            
+        
+                
+                <li>IOS
+                    <ul>
+                        <li><a href="iphonee.html">iPhone</a>
+                            <ul>
+											<li><a href="#">iPhone X</a></li>
+											<li><a href="#">iPhone Xs</a></li>
+											<li><a href="#">iPhone Xs Max</a></li>
+											<li><a href="#">iPhone XR</a></li>
+											<li><a href="#">iPhone 8</a></li>
+											<li><a href="#">iPhone 8 plus</a></li>
+                                            <li><a href="#">iPhone 7</a></li>
+                                            <li><a href="#">iPhone 7 plus</a></li>
+										</ul>
+
+                        </li>
+                    </ul>
+                </li>
+                
+                
+                </ul>
+                
+                
+    
+            </div>
+        </div>
+        
+      
+         <div id="sidebar">
+        <div class="toggle-btn" onclick="toggleside()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <ul>
+            <li><a href="index.html" style="text-decoration: none; color:white">Home</a></li>
+            <li><a href="warranty.html" style="text-decoration: none; color:white">Services</a></li>
+            <li><a href="f.html" style="text-decoration: none; color: white">Sign-Up</a></li>
+            <li><a href="d.html" style="text-decoration: none; color: white">Log-In</a></li>
+        </ul>
+    </div>
+        
+       <script>
+
+function toggleside(){
+        document.getElementById("sidebar").classList.toggle("active");
+        }
+           </script>
+             
+        </div>
+    <br><br>
+    </body>
+    
+</html>
+
+
+
+
+
+
+
+
+<html>
+<head>
+    <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale-1.0">
+ <meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>iPhone</title>
+<style>
+.floating-box {
+    float: left;
+    width: 250px;
+    height: 400px;
+    margin: 50px;
+    border: 0px;
+   
+ text-align: center;
+
+box-shadow: 0 5px 10px 0 grey;
+}
+
+
+
+
+
+.zoomimage {
+            height:270px;
+            widows: 270px;
+            overflow: auto;
+            text-align: center;
+        }
+        
+        img {
+           
+            transition: 0.75s;
+        }
+        
+        .zoomimage:hover img {
+            transform: scale(1.2);
+        }
+        
+        .baax {
+            margin: 28px;
+            float:left;
+            width:200px;
+            height: 200px;
+            border:0px transparent;
+        }
+
+
+
+</style>
+    </head>
+<body style="background-color:">
+
+<br><br><br><br>
+<hr><hr><img src="img/applelogo.jpg" height="120" width="200" style="margin:2;"><hr><hr>
+
+    <div class="floating-box" ><div class="baax"><div class="zoomimage"><center><br><img src="img/ix.jpg" width="200" height="200" ></center></div></div><br><center><a href="vish11.html" style="color:black"><b><i>iPhone X</i><br><br>(Black, 64GB Storage)<br>Rs. 68,999<sup>*</sup></b><br><input type="button" value="Add to cart"></center></div>
+
+<div class="floating-box" ><div class="baax"><div class="zoomimage"><center><br><img src="img/xs.jpg" width="200" height="200"></center></div></div><br><center><a href="vish22.html" style="color:black"><b><i>iPhone Xs</i><br><br>(Silver, 64GB Storage)<br>Rs. 97,400<sup>*</sup></b><br><input type="button" value="Add to cart"></center></div>
+
+<div class="floating-box" ><div class="baax"><div class="zoomimage"><center><br><img src="img/xsmax.jpg" width="200" height="200"></center></div></div><br><center><a href="vish33.html" style="color:black"><b><i>iPhone Xs Max</i><br><br>(Black,64GB)<br>Rs. 1,24,900<sup>*</sup></b><br><input type="button" value="Add to cart"></center></div>
+
+<div class="floating-box" style="background-color:white"><div class="baax"><div class="zoomimage"><br><center><img src="img/xr1.jpg" width="200" height="200"></center></div></div><br><center><b><i>iPhone Xr</i><br><br>(Red,64GB)<br>Rs. 59,900<sup>*</sup></b><br><input type="button" value="Add to cart"></center></div>
+
+<div class="floating-box"><div class="baax"><div class="zoomimage"><center><img src="img/8.jpg" width="200" height="250"></center></div></div><br><br><center><b><i>iPhone 8</i><br><br>(Black, 32 GB)<br>Rs. 54,999<sup>*</sup></b><br><input type="button" value="Add to cart"></center></div>
+
+<div class="floating-box" ><div class="baax"><div class="zoomimage"><center><img src="img/8plus.jpg" width="200" height="200"></center></div></div><br><center><b><i>iPhone 8 Plus</i><br><br> (Rose Gold, 32 GB)<br>Rs. 79,999<sup>*</sup></b><br><input type="button" value="Add to cart"></center></div>
+
+<div class="floating-box" ><div class="dabba"><div class="zoomimage"><center><br><img src="img/7%20(2).jpg" width="200" height="250"></center></div></div><br><center><b><i>iPhone 7</i><br><br>(Rose Gold, 32GB)<br>Rs. 39,899<sup>*</sup></b><br><input type="button" value="Add to cart"></center></div>
+
+<div class="floating-box" ><div class="baax"><div class="zoomimage"><center><img src="img/7plus.jpg" width="200" height="250"></center></div></div><br><center><b><i>iPhone 7 Plus</i><br><br>(Black, 3GB RAM, 32GB Storage)<br>Rs. 49,999<sup>*</sup></b><br><input type="button" value="Add to cart"></center></div>
+        
+    </div>
+    </body>
+</html>
+
+
+
+
+
+<html>
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale-1.0">
+ <meta http-equiv="X-UA-Compatible" content="ie=edge">
+ <title>Pure CSS Slider</title>
+ <link rel="stylesheet" href="css/istyle.css">
+</head>
+<style>
+
+div.fixed {
+    position:static;
+    bottom: 10px;
+    right: 0;
+    width: 300px;
+    height: 350px;
+    border: 2px solid grey;
+}
+
+</style>
+<body>
+<div class="fixed"> <slider>
+  
+<slide><img src="https://i-cdn.phonearena.com/images/article/105286-two_lead/Nokia-5.1-Nokia-3.1-and-Nokia-2.1-are-announced-the-purest-of-Android-at-an-affordable-price.jpg" width="300" height="450"></slide>
+ 
+<slide><img src="https://assets-news-bcdn-ll.dailyhunt.in/cmd/resize/400x400_60/fetchdata13/images/4c/c4/84/4cc48418bfb7d284ca67724d3753ee6c.jpg" width="300" height="350"></slide>
+
+<slide><img src="https://www.pcquest.com/wp-content/uploads/2017/02/Nokia-6_range.jpg" width="300" height="350"></slide>
+  
+<slide><img src="https://gadgets.cartoq.com/wp-content/uploads/2018/10/nokia-3.1.png"width="300" height="350"></slide>
+ </slider>
+</div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<title>Mobilophile</title>
+
+<style>
+
+
+
+
+
+
+
+
+
+*{
+  margin:0px;
+  padding: 0px;
+ 
+}
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+.clr{
+  clear: both;
+}
+.footer-wrapper{
+  width: 100%;
+  height:auto;
+  padding-bottom: 20px;
+  margin:auto;
+  background-image: url(img/rock.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  overflow: hidden;
+ 
+  padding-top: 18px;
+  bottom: 0px;
+}
+.footer-social-icons{
+  width: 100%;
+  height: auto;
+  margin:auto;
+  margin-bottom: 40px;
+}
+.footer-social-icons ul{
+  margin:0px;
+  padding: 0px;
+  text-align: center;
+}
+.footer-social-icons ul li{
+  display: inline-block;
+  margin-right: 2px;
+  width: 36px;
+  height: 36px;
+  text-align: center;
+}
+.footer-social-icons ul li a{
+  color: #fff;
+  display: block;
+  font-size: 22px;
+  text-shadow: 0px 0px 5px rgba(0,0,0,0.75);
+}
+.footer-social-icons ul li a i{
+  line-height: 36px;
+}
+.footer-social-icons ul li:nth-child(1){
+    background: #3b5998;
+}
+.footer-social-icons ul li:nth-child(2){
+    background: #1da1f2;
+}
+.footer-social-icons ul li:nth-child(3){
+    background: #25d366;
+}
+.footer-social-icons ul li:nth-child(4){
+    background: #c32aa3;
+}
+.footer-social-icons ul li:nth-child(5){
+    background: #007bb5;
+}
+.footer-social-icons ul li:nth-child(6){
+    background: #ff0000;
+}
+.footer-social-icons ul li:nth-child(7){
+    background: #db4437;
+}
+.footer-social-icons ul li:nth-child(8){
+    background: #00aff0;
+}
+.footer-social-icons ul li:nth-child(9){
+    background: #09b83e;
+}
+.footer-social-icons ul li:nth-child(10){
+    background: #bd081c;
+}
+.footer-mid-part{
+  width: 100%;
+  height: auto;
+  margin: auto;
+
+}
+.footer-section-one{
+  width: 100%;
+  height: auto;
+  margin: auto;
+  padding: 20px 20px;
+  background: rgba(255,255,255,.1);
+}
+.footer-section-two{
+  width: 100%;
+  height: auto;
+  margin: auto;
+  padding: 20px 20px;
+}
+.footer-section-three{
+  width: 100%;
+  height: auto;
+  margin: auto;
+  padding: 20px 20px; 
+  background: rgba(255,255,255,.1);
+  
+}
+.footer-heading{
+   width: 100%;
+  height: auto;
+  margin: auto;
+}
+.footer-heading h2{
+  font-size: 18px;
+  text-align: left;
+  color: #fff;
+  text-transform: uppercase;
+  margin: 0px;
+}
+.footer-contact-box{
+  width: 100%;
+  height: auto;
+  margin: auto;
+  margin-top: 13px;
+}
+.footer-contact-icon{
+  width: 25px;
+  height: 25px;
+  float: left;
+}
+.footer-contact-icon i{
+  color: #fff;
+  font-size: 20px;
+}
+.footer-contact-text{
+  width: 85%;
+  height: auto;
+  float: left;
+  margin-left: 10px;
+}
+.footer-contact-text p{
+  font-size: 14px;
+  text-align: left;
+  color: #fff;
+  cursor: pointer;
+}
+.footer-contact-text p a{
+  font-size: 14px;
+  text-align: left;
+  color: #fff;
+  text-decoration: none;
+
+}
+.footer-contact-text p:hover{
+  color: #f00;
+}
+.footer-contact-box:hover .footer-contact-icon i{
+   color: #f00;
+}
+.footer-contact-box:hover .footer-contact-text p a{
+  color: #f00;
+}
+.footer-link{
+  width: 100%;
+  height:auto;
+  margin: auto;
+  margin-top: 20px;
+}
+.footer-link ul{
+  margin:0px;
+  padding: 0px;
+}
+.footer-link ul li{
+  list-style-type: none;
+  text-align: center;
+  padding-top: 5px;
+}
+.footer-link ul li a{
+  font-size: 14px;
+  color: #fff;
+  text-decoration: none;
+   text-transform: capitalize;;
+}
+.footer-link ul li a:hover{
+  color: #f00;
+}
+.footer-section-two .footer-heading h2{
+  text-align: center;
+}
+.footer-form{
+  width: 100%;
+  height: auto;
+  margin: auto;
+  margin-top: 20px;
+}
+.footer-form-box{
+   width: 100%;
+  height: auto;
+  margin: auto;
+  margin-top: 20px;
+}
+.footer-form-style{
+  width: 100%;
+  height: 40px;
+  border-left: none;
+  border-top: none;
+  border-right: none;
+  border-bottom:1px solid rgba(255,255,255,.1);
+  background:transparent;
+  font-size: 14px;
+  text-align: left;
+  padding: 0px 10px;
+  color: #fff;
+}
+.footer-form-submit-style{
+  width: 129px;
+  height: 35px;
+  font-size: 16px;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  background: rgba(255,255,255,.5);
+  border:none;
+  margin-top: 1px;
+}
+.footer-form-submit-style:active{
+  background: #f00;
+}
+.footer-bottom{
+  width: 100%;
+  height: auto;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.footer-bottom{
+  font-size: 14px;
+  text-align: center;
+  color: #fff;
+}
+
+h6{
+  font-size: 60px;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 30px;
+}
+h6 span{
+  color: #f00;
+}
+/*RESPONSIVE CODE*/
+@media only screen and (max-width: 1199px){
+  .footer-wrapper{
+    position: relative;
+    background-attachment: scroll;
+  }
+  h6{
+    font-size: 4vw!important;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .footer-section-one{
+    padding: 12px;
+  }
+  .footer-social-icons ul li{
+    margin-bottom: 5px;
+  }
+}
+
+</style></head>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<body>
+  <br><br>
+<div class="footer-wrapper">
+  <div class="top-img"></div>
+  <div class="container-fluid">
+    <div class="footer-social-icons">
+      <ul>
+        <li><a href="#" target="_blank"><i class="fa fa-facebook"></i></a></li>
+        <li><a href="#" target="_blank"><i class="fa fa-twitter"></i></a></li>
+        <li><a href="#" target="_blank"><i class="fa fa-whatsapp"></i></a></li>
+        <li><a href="#" target="_blank"><i class="fa fa-instagram"></i></a></li>
+        <li><a href="#" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+       
+        
+      </ul>
+    </div>
+
+
+
+
+
+
+
+
+    <div class="footer-mid-part">
+      <div class="row">
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="footer-section-one">
+            <div class="footer-heading"><h2>Contact Us</h2></div>
+ <div class="footer-contact-box">
+            <div class="footer-contact-icon"><i class="fa fa-map-marker"></i></div>
+            <div class="footer-contact-text">
+              <p>602/2,Konark Darshan,Cement Company Road,Andheri(E).</p>
+            </div>
+            <div class="clr"></div>
+          </div>
+
+           <div class="footer-contact-box">
+            <div class="footer-contact-icon"><i class="fa fa-phone"></i></div>
+            <div class="footer-contact-text">
+              <p><a href="tel:+012-3456-789">+012-3456-789</a></p>
+            </div>
+            <div class="clr"></div>
+          </div>
+
+           <div class="footer-contact-box">
+            <div class="footer-contact-icon"><i class="fa fa-fax"></i></div>
+            <div class="footer-contact-text">
+              <p><a href="fax:+012-3456-789">+012-3456-789</a></p>
+            </div>
+            <div class="clr"></div>
+          </div>
+
+           <div class="footer-contact-box">
+            <div class="footer-contact-icon"><i class="fa fa-envelope"></i></div>
+            <div class="footer-contact-text">
+              <p><a href="mailto:mobilophile.com">mobilophile.com</a></p>
+            </div>
+            <div class="clr"></div>
+          </div>
+
+           <div class="footer-contact-box">
+            <div class="footer-contact-icon"><i class="fa fa-globe"></i></div>
+            <div class="footer-contact-text">
+               <p><a href="http://www.mobilophile.com">http://www.mobilophile.com</a></p>
+            </div>
+            <div class="clr"></div>
+          </div>
+
+
+          </div>
+
+        </div> 
+        
+ <div class="footer-bottom">
+   <div class="row">
+     <div class="col-lg-12 col-md-12 col-sm-12">
+       <p>Copyright © 2000-2019 MOBILOPHILE All Rights Reserved.</p>
+     </div>
+   </div>
+ </div>
+
+
+  </div>
+</div>

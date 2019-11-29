@@ -1,0 +1,306 @@
+body{
+	margin: 0;
+    margin-top: -1px;
+	padding: 0;
+	font-family: arial;
+	font-size: 14.5px;
+    background-repeat: no-repeat;
+}
+ul li{
+	list-style-type: none;
+    color: black;
+}
+#container{
+	width: 100%;
+   
+}
+#wrapper{
+	width: 980px;
+	margin: 2px auto;
+}
+h1{
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: normal;
+	font-size: 12px;
+	margin: 0;
+	padding: 0 0 14 0;
+   
+}
+ul{
+	margin: 0;
+	padding: 0;
+    color: gainsboro;
+}
+li.pad{
+	float: left;
+    font-size: 18px;
+
+}
+#holder  li{
+	color: white;
+	text-decoration: none;
+	transition: 0.1s;
+}
+a{
+	color: gray;
+	text-decoration: none;
+	display: block;
+	transition: 0.1s;
+}
+.pad a{
+	padding: 18 17 22 17;
+}
+#holder ul{
+	width: 100%;
+}
+#holder ul li span{
+	padding: 7 0;
+}
+.pad > a:hover, .using > li:hover > a {
+	background: #262626;
+}
+#software ul li a:hover span{
+	transition: 0.1s;
+}
+#iOS ul li a:hover span, .using > li:hover > a > span{
+	border-bottom: 2px solid #FF6E00;
+	transition: 0.1s;
+}
+#Android ul li a:hover span, #Android .using > li:hover > a > span{
+	border-bottom: 2px solid #6159CC;
+	transition: 0.1s;
+}
+.sub-wrapper-Android{
+	border-bottom: 5px solid #6159CC;
+}
+.sub-wrapper-Android a:hover{
+	color: #6159CC;
+	transition: 0.3s;
+}
+#design ul li a:hover span, #design .using > li:hover > a > span{
+	border-bottom: 2px solid #FA9C14;
+	transition: 0.1s;
+}
+.sub-wrapper-design{
+	border-bottom: 5px solid #FA9C14;
+}
+.sub-wrapper-design a:hover{
+	color: #FA9C14;
+	transition: 0.3s;
+}
+#game ul li a:hover span, #game .using > li:hover > a > span{
+	border-bottom: 2px solid #78BA42;
+	transition: 0.1s;
+}
+.sub-wrapper-game{
+	border-bottom: 5px solid #78BA42;
+}
+.sub-wrapper-game a:hover{
+	color: #78BA42;
+	transition: 0.3s;
+}
+#web ul li a:hover span, #web .using > li:hover > a > span{
+	border-bottom: 2px solid #CA3723;
+	transition: 0.1s;
+}
+.sub-wrapper-web{
+	border-bottom: 5px solid #CA3723;
+}
+.sub-wrapper-web a:hover{
+	color: #CA3723;
+	transition: 0.3s;
+}
+#cad ul li a:hover span, #cad .using > li:hover > a > span{
+	border-bottom: 2px solid #1CA6E0;
+	transition: 0.1s;
+}
+.sub-wrapper-cad{
+	border-bottom: 5px solid #1CA6E0;
+}
+.sub-wrapper-cad a:hover{
+	color: #1CA6E0;
+	transition: 0.3s;
+}
+#dev ul li a:hover span{
+	border-bottom: 2px solid #F26621;
+	transition: 0.1s;
+}
+#blog ul li a:hover span{
+	border-bottom: 2px solid #777777;
+	transition: 0.1s;
+}
+.sub-wrapper-Android, .sub-wrapper-design, .sub-wrapper-game, .sub-wrapper-web, .sub-wrapper-cad{
+	width: 100%;
+	height: auto;
+	background: #262626;
+	position: absolute;
+	left: 0;
+	padding: 40 0;
+}
+#holder ul li > ul{
+	position: absolute;
+	left: -9000;
+}
+#holder ul li:hover ul{
+	left: 0;
+}
+.sub-con{
+	width: 900px;
+	margin: 0px auto;
+}
+.sub-l{
+	float: left;
+	width: 250px;
+}
+.sub-hol ul li a{
+	padding: 8 0 8 0;
+	font-size: 13px;
+	transition: 0.3s;
+}
+.sub-m{
+	padding-left: 15px;
+	float: left;
+	border-left: 1px solid #4D4D4D;
+	border-right: 1px solid #4D4D4D;
+	padding-right: 240px;
+}
+.sub-in-l{
+	float: left;
+    padding-left: 9px;
+	width: 165px;
+}
+.sub-in-r{
+	float: right;
+	width: 135px;
+    margin: 2px;
+    padding: 2px;
+}
+.sub-r{
+	float: right;
+	padding-left: 20px;
+}
+#iOS ul li a:hover span, #Android .using > li:hover > a > span{
+	border-bottom: 2px solid #6159CC;
+	transition: 0.1s;
+}
+.sub-wrapper-iOS{
+	border-bottom: 5px solid #6159CC;
+}
+.sub-wrapper-iOS a:hover{
+	color: #6159CC;
+	transition: 0.3s;
+}
+#input[type=text]{
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    
+}
+.search-box{
+    position: absolute;
+    top: 20%;
+    left: 58%;
+    transform: translate(-50%,-50%);
+    background: #2f3640;
+    height: 37px;
+    border-radius: 40px;
+    padding: 10px;
+}
+.search-box:hover > .search-txt{
+    width: 240px;
+    padding: 0 6px;
+}
+.search-box:hover > .search-btn{
+    background: white;
+}
+.search-btn{
+    color: #e84118;
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #2f3640;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search-txt{
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: white;
+    font-size: 16px;
+    transition: 0.4s;
+    line-height: 40px;
+    width: 0px;
+    
+}
+
+.services{
+    float: left;
+    font-size: 18px;
+}
+.profile{
+    float: right;
+    font-size: 18px;
+    width: 10px;
+    margin-right: 15px;
+}
+.profile ul{
+   float: right;
+    display: inline-flex;
+    list-style: none;
+    color: gray;
+}
+.profile ul li{
+    float: right;
+        width: 100px;
+    font-size: 18px;
+    margin-right: 10px;
+
+    
+}
+.sub-menu-1{
+    display: none;
+
+
+}
+.profile ul li:hover .sub-menu-1{
+    display: block;
+    position: absolute;
+    background: black;
+    margin-top: 10px;
+    margin-right: -8px;
+   
+}
+.profile ul li:hover .sub-menu-1 ul{
+    display: block;
+    margin: 10px;
+}
+
+.profile ul li a{
+    text-decoration: none;
+    color: gray;
+}
+.profile .fa{
+     margin-right: 8px;
+}
+.android{
+    font-size: 18px;
+    margin-right: 8px;
+}
+.add{
+    float: right;
+    font: 18px;
+    margin-right: 20px;
+}
+.add .fa{
+     margin-right: 15px;
+}

@@ -1,0 +1,220 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: url(https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/VKIq1onKeik8p806r/videoblocks-closeup-of-young-woman-hands-scrolling-pictures-phone-surfing-internet-tracking-shot-of-a-female-using-a-cell-mobile-phone-close-up_hhlnh_aje_thumbnail-full01.png)  no-repeat;
+    height:8vh;
+    background-size: contain;
+    width: 100%;
+}
+
+.menu{
+    width: 100%;
+    height: 80px;
+    margin: 0px auto;
+    background-color: rgba(0,0,0,0.5);
+}
+.leftmenu{
+    width: 25%;
+    line-height: 80px;
+   text-align: center;
+}
+.leftmenu h2{
+    text-align: center;
+    padding-left: 450px;
+    font-weight: bol d;
+    color: white;
+    font-size: 50px;
+}
+.menu ul{
+    padding: 0px;
+}
+.menu ul li{
+    float: left;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    width: 200px;
+    height: 45px;
+    line-height: 45px;
+    font-size: 23px;
+    list-style: none;
+    text-align: center;
+    opacity: 0.5;
+}
+.menu  ul li ul{
+    display: none;
+    
+}
+.menu ul li:hover > ul{
+    display: block;
+}
+.menu ul li:hover{
+    background-color: black;
+    opacity: 0.9;
+    color: white;
+}
+.menu ul li ul li{
+    position: relative;
+}
+.menu ul li ul li ul{
+    position: absolute;
+    left: 200px;
+    top: 0px;
+}
+.menu ul li a{
+    color: white;
+}
+.rightmenu{
+    width: 73%;
+    height: 100px;
+    float: right;
+    margin-top: 0px;
+}
+
+
+
+
+@media screen and (max-width: 736px){
+    body{
+        width: 100%;
+        
+    }
+    .rightmenu{
+        width: 53%;
+        float: left;
+        margin-left: 110px;
+    }   
+    .rightmenu ul li{
+        margin-top: 0px;
+        padding-left: 20px;
+    }
+    .menu ul li{ 
+    width: 70px;
+    height: 30px;
+    font-size: 18px;
+        
+    }
+    .menu{
+    width: 130%;
+    }
+    
+    .menu ul li ul li ul{
+    position: absolute;
+    left: 100px;
+    top: 0px;
+}
+    .leftmenu h2{
+    text-align: center;
+    padding-left: 120px;
+    font-weight: bol d;
+    color: white;
+    font-size: 30px;
+}
+        p.bro{
+    font-size: 20px;
+    }
+    
+    .text{
+    width: 40%;
+    margin-top: 90px;
+    }
+    
+    p.one{
+        margin-top: 100px;
+        font-size: 1em;
+   
+    
+}
+    #container1{
+        margin-left: 20px;
+    }
+}
+
+
+
+
+.rightmenu ul li{
+    font-family: 'Montserrat',sans-serif;
+    display: inline-block;
+    list-style: none;
+}
+.text{
+    width: 100%;
+    margin-top: 185px;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+}
+
+p.bro{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Open Sans',sans-serif;
+    color: white;
+    
+}
+.text h1{
+    font-size: 50px;
+    font-family: 'open sans',sans-serif;
+    font-weight: 700px;
+    margin: 16px 0px;
+    
+}
+p.sis{
+    font-size: 15px;
+    font-family: 'open sans',sans-serif;
+    font-weight: bold;
+}
+#buttonone{
+    background-color: white;
+    border: none;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 40px;
+    width: 150px;
+     font-family: 'Montserrat',sans-serif;
+    text-transform: uppercase;
+     font-family: 'Montserrat',sans-serif;
+    margin-top: 25px;
+    border: 3px solid white;
+}
+
+#buttontwo{
+    background-color: transparent;
+    border: none;
+    font-family: 'Montserrat',sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 40px;
+    border: 3px solid white;
+    width: 150px;
+}
+p.one{
+    position: relative;
+    font-family: sans-serif;
+    color:#fff;
+    text-transform: uppercase;
+    font-size: 3em;
+    letter-spacing: 4px;
+    overflow: hidden;
+    margin: 16px 0px;
+    background: linear-gradient(90deg,#000,#fff,#000);
+    background-size: 80%;
+    background-repeat: no-repeat;
+    animation: animate 3s linear infinite;
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:rgba(255,255,255,.01);
+   
+    
+}
+
+@keyframes animate{
+    0%{
+        background-position: -500%;
+    }
+    100%{
+        background-position: 500%;
+    }
+}
